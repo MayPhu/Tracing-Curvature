@@ -3,7 +3,7 @@ This code traces the bounday of an object from an image and detect the points ha
 The basic idea behind this code is from Freeman's Chain coding algorithm. (https://ieeexplore.ieee.org/document/5219197?arnumber=5219197&tag=1),(http://www.sciencedirect.com/science/article/pii/S0031320304003723)
 It used eight-direction code word system to trace the directional changes between pixels along the edge. 
 In this code, a modified version of original chain coding is applied. 
-Unlike the conventional one, we used two code sysetem to trace both horizonal and vertical curvature changes. 
+Unlike the conventional algorithm, we used two code word systems to trace both horizonal and vertical curvature changes.(https://pubmed.ncbi.nlm.nih.gov/25557199/)
 
 # Code-word systems
             Horizontal direction-to-code convention is:  1  0  -1
